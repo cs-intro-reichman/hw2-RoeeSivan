@@ -42,15 +42,18 @@ public class TimeCalc {
         if((newhour<10)&&(newMinutes<10))
         {
             System.out.println("0"+newhour+":"+"0"+newMinutes);
+            System. exit(0);
         }
         else {
             if((newhour<10)&&(newMinutes>10))
             {
                 System.out.println("0"+newhour+":"+newMinutes);
+                System. exit(0);
             }
             if((newhour>10)&&(newMinutes<10))
             {
             System.out.println(newhour+":"+"0"+newMinutes);
+            System. exit(0) ;
             }
       System.out.println(newhour+":"+newMinutes);
     }
