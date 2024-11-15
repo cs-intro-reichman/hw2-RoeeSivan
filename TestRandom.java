@@ -25,7 +25,6 @@ public class TestRandom {
 		if((count1>count0) && (!t))
 		{
 			ratio = (double)count0/count1;
-			System.out.println(ratio);
 		}
 		if(t)
 		{
