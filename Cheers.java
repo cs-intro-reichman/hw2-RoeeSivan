@@ -9,7 +9,7 @@ public class Cheers {
             int numPrint = Integer.parseInt(args[1]);
             char ch;
             //Check for change
-            for(int i=0;i<=numPrint&&i<word.length();i++)
+            for(int i=0;i<word.length();i++)
             {
                 ch=word.charAt(i);
                 if (change.indexOf(ch)!=-1)
@@ -24,7 +24,7 @@ public class Cheers {
             System.out.println("What does that spell?");
             for(int j=0;j<numPrint;j++)
             {
-                System.out.println(word+"!!!");
+                System.out.println(word + "!!!");
             }
             
         }
