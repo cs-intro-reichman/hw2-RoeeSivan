@@ -12,7 +12,7 @@ public class TestRandom {
 			{
 					count0++;
 			}
-			if(Math.random()>=0.5)
+			else
 			{
 					count1++;
 			}
