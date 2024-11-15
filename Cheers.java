@@ -12,13 +12,13 @@ public class Cheers {
             for(int i=0;i<word.length();i++)
             {
                 ch=word.charAt(i);
-                if (change.indexOf(ch)!=-1)
+                if (change.indexOf(ch)==-1)
                 {
-                  System.out.println("Give me an "+ch+": "+ch+"!");
+                  System.out.println("Give me a  "+ch+": "+ch+"!"); 
                 }
-                else
+                if(change.indexOf(ch)!=-1)
                 {
-                        System.out.println("Give me a "+ch+": "+ch+"!"); 
+                        System.out.println("Give me an "+ch+": "+ch+"!"); 
                 }
             } 
             System.out.println("What does that spell?");
