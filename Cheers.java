@@ -5,7 +5,7 @@ public class Cheers {
 	    // Replace this comment with your code
             String word = args[0];
             word = word.toUpperCase();
-            String change="AEFHILMNORSX";
+            String change = "AEFHILMNORSX";
             int numPrint = Integer.parseInt(args[1]);
             char ch;
             //Check for change

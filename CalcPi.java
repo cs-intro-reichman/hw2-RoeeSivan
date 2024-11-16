@@ -3,7 +3,7 @@ public class CalcPi {
 	    // Replace this comment with your code
 		int terms = Integer.parseInt(args[0]);
 		double proxy=0.0;//pi approximated
-		if(terms==1)
+		if(terms==1)//special case
 		{
 			proxy=1.0;
 			System.out.println("pi according to Java: " + Math.PI);
